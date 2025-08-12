@@ -1,20 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+
+body {
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Media query para tabletas */
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+    padding: 20px;
+  }
+}
+
+/* Media query para computadoras de escritorio */
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+    padding: 30px;
+  }
+}
+
+
 header {
-  background-color: black;   
-  color: white;              
-  padding: 20px 20px;        
-  position: fixed;            
-  top: 0;                     
-  width: 100%;                
+  background-color: black;
+  color: white;
+  padding: 20px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 1000;
 }
 
-.aaa{
+.aaa {
   width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -29,13 +52,13 @@ body {
   background-color: #6d6d6d;
 }
 
-#buscador{
+#buscador {
   text-align: center;
   display: flex;
   gap: 5px;
 }
 
-#buscador input{
+#buscador input {
   padding: 5px;
 }
 
@@ -54,12 +77,12 @@ body {
 }
 
 #MainHome {
-  padding: 100px 20px 40px; 
+  padding: 100px 20px 40px;
   min-height: 100vh;
 }
 
 .perfil {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -68,7 +91,7 @@ body {
   background-color: #fff;
   border-radius: 8px;
   padding: 30px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .izquierda {
@@ -107,15 +130,16 @@ details {
 }
 
 summary {
-  font-weight:bold; /* cambia las letras */
+  font-weight: bold;
+  /* cambia las letras */
   cursor: pointer;
 }
 
-footer{
+footer {
   background-color: #6d6d6d;
 }
 
-.link{
+.link {
   border: 7px solid #000000;
   border-radius: 100px;
   background-color: black;
@@ -123,32 +147,33 @@ footer{
   text-decoration: none;
 }
 
-.link:hover{
-  color: red; /*esto es para que cuando pase el click por encima salga en este color*/
+.link:hover {
+  color: red;
+  /*esto es para que cuando pase el click por encima salga en este color*/
 }
 
-#MainPage1{
+#MainPage1 {
   padding: 100px 20px 40px;
   background-color: #6d6d6d;
 }
 
-.perfil img{
+.perfil img {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 20px;
 }
 
-#MainPage2{
+#MainPage2 {
   padding: 100px 20px 40px;
   background-color: #6d6d6d;
 }
 
-#MainPage3{
+#MainPage3 {
   padding: 100px 20px 40px;
   background-color: #6d6d6d;
 }
 
-#MainPage4{
+#MainPage4 {
   padding: 100px 20px 40px;
   background-color: #6d6d6d;
 }
