@@ -81,6 +81,8 @@ body {
 }
 
 .derecha {
+    display: flex;
+    flex-direction: column;
     width: 60%;
     line-height: 150%;
     margin-top: 0%;
@@ -119,6 +121,7 @@ body {
 
     .izquierda,
     .derecha {
+        padding: 1%;
         width: 100%;
         margin: 0;
         text-align: center;
