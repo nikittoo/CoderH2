@@ -12,18 +12,18 @@ header {
     width: 100%;
 }
 
-.hnav{
+.hnav {
     display: flex;
     width: 100%;
 }
 
-.hdivizq{
+.hdivizq {
     align-items: left;
     text-align: left;
     width: 87%;
 }
 
-.hdivder{
+.hdivder {
     width: 13%;
     align-items: right;
     text-align: right;
@@ -34,7 +34,7 @@ body {
     background-color: #6d6d6d;
 }
 
-.MainIndex{
+.MainIndex {
     display: flex;
     justify-content: center;
 }
@@ -47,16 +47,16 @@ body {
 
     width: 70%;
     /*define el ancho*/
-    height: 70%;
-    
+    height: auto;
+
     gap: 1%;
     padding: 1%;
     /*Ajusta todo al medio 1% lejos del borde*/
 
     border-radius: 1%;
     margin: 1%;
-    
-     
+
+
     display: flex;
     /*activo flex box*/
     flex-direction: row;
@@ -65,6 +65,7 @@ body {
 
 .izquierda {
     margin-top: 7%;
+    height: 40%;
     width: 40%;
     text-align: center;
     align-items: center;
@@ -73,7 +74,7 @@ body {
 }
 
 .izquierda img {
-    width: 40%;
+    width: 85%;
     height: auto;
     border-radius: 2%;
     margin-bottom: auto;
@@ -81,11 +82,33 @@ body {
 
 .derecha {
     width: 60%;
-    line-height: 200%;
+    line-height: 150%;
     margin-top: 0%;
     /* Quita espacio arriba */
-    
+
     padding-top: 0;
+}
+
+@media (max-width: 768px) {
+  .descripcion {
+    font-size: 0.95rem;
+    padding: 4%;
+  }
+}
+
+.texto {
+    /*Me acomoda el texto*/
+    padding: 2%;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 90%;
+    margin: auto;
+
+    /*Le da vida*/
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', sans-serif;
 }
 
 footer {
