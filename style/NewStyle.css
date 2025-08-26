@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 1% 2.5%;
+    width: 100%;
+}
+
+.hnav{
+    display: flex;
+    width: 100%;
+}
+
+.hdivizq{
+    align-items: left;
+    text-align: left;
+    width: 87%;
+}
+
+.hdivder{
+    width: 13%;
+    align-items: right;
+    text-align: right;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6d6d6d;
+}
+
+.MainIndex{
+    display: flex;
+    justify-content: center;
+}
+
+.perfil {
+    border: 1px solid #ccc;
+    /* define el borde*/
+
+    background-color: white;
+
+    width: 70%;
+    /*define el ancho*/
+    height: 70%;
+    
+    gap: 1%;
+    padding: 1%;
+    /*Ajusta todo al medio 1% lejos del borde*/
+
+    border-radius: 1%;
+    margin: 1%;
+    
+     
+    display: flex;
+    /*activo flex box*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.izquierda {
+    margin-top: 7%;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.izquierda img {
+    width: 40%;
+    height: auto;
+    border-radius: 2%;
+    margin-bottom: auto;
+}
+
+.derecha {
+    width: 60%;
+    line-height: 200%;
+    margin-top: 0%;
+    /* Quita espacio arriba */
+    
+    padding-top: 0;
+}
+
+footer {
+    background-color: #6d6d6d;
+}
