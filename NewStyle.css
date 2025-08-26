@@ -90,10 +90,48 @@ body {
 }
 
 @media (max-width: 768px) {
-  .descripcion {
-    font-size: 0.95rem;
-    padding: 4%;
-  }
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 2%;
+    }
+
+    body {
+        font-size: 0.95rem;
+    }
+
+    .MainIndex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perfil {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+
+    .hdivizq,
+    .hdivder {
+        width: 100%;
+        text-align: center;
+    }
+
+    .izquierda,
+    .derecha {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .izquierda img {
+        width: 70%;
+    }
+
+    .texto {
+        font-size: 0.95rem;
+        padding: 4%;
+    }
 }
 
 .texto {
