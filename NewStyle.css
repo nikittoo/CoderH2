@@ -18,7 +18,8 @@ header {
 }
 
 .hdivizq {
-    align-items: left;
+    display: flex;
+    align-items: center;
     text-align: left;
     width: 87%;
 }
