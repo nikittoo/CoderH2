@@ -135,13 +135,11 @@ body {
 }
 
 .izquierdaIndex {
-    margin-top: 7%;
     height: 40%;
-    width: 40%;
+    width: 60%;
     text-align: center;
     align-items: center;
-    margin-top: 0;
-    padding-top: 0;
+    padding: 1vh;
 }
 
 .izquierdaIndex img {
