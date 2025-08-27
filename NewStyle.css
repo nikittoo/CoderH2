@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*HEADER*/
 header {
     display: flex;
     background-color: black;
@@ -31,6 +32,8 @@ header {
     justify-content: flex-end;
 }
 
+/*HASTA ACA EL HEADER*/
+/*BODY y MAIN IGUALES PARA TODOS*/
 body {
     font-family: Arial, sans-serif;
     background-color: #6d6d6d;
@@ -40,26 +43,19 @@ body {
     display: flex;
     justify-content: center;
 }
+/*HASTA ACA PARA TODOS*/
 
-.perfil {
+/*CADA PAGINA TIENE SU PERFIL*/
+.perfilIndex {
     border: 1px solid #ccc;
-    /* define el borde*/
-
     background-color: white;
-
     width: 70%;
     height: auto;
-
     gap: 1%;
     padding: 1%;
-    /*Ajusta todo al medio 1% lejos del borde*/
-
     border-radius: 1%;
     margin: 1%;
-
-
     display: flex;
-    /*activo flex box*/
     flex-direction: row;
     flex-wrap: nowrap;
 }
@@ -79,45 +75,65 @@ body {
     flex-wrap: wrap;
 }
 
-.perfilPage3 {
+.perfilPage2 {
     border: 1px solid #ccc;
-
     background-color: white;
-
     width: 70%;
     height: auto;
-
     gap: 1%;
     padding: 1%;
-    /*Ajusta todo al medio 1% lejos del borde*/
-
     border-radius: 1%;
     margin: 1%;
-
-
     display: flex;
-    /*activo flex box*/
     flex-direction: row;
     flex-wrap: nowrap;
 }
 
-.arriba {
+.perfilPage3 {
+    border: 1px solid #ccc;
+    background-color: white;
+    width: 70%;
+    height: auto;
+    gap: 1%;
+    padding: 1%;
+    border-radius: 1%;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.perfilPage4 {
+    border: 1px solid #ccc;
+    background-color: white;
+    width: 70%;
+    height: auto;
+    gap: 1%;
+    padding: 1%;
+    border-radius: 1%;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.arribaPage1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.arriba img {
+.arribaPage1 img {
     width: 75%;
     height: auto;
     border-radius: 2%;
 }
 
-.abajo {
+.abajoPage1 {
     display: flex;
 }
 
-.izquierda {
+.izquierdaIndex {
     margin-top: 7%;
     height: 40%;
     width: 40%;
@@ -127,21 +143,45 @@ body {
     padding-top: 0;
 }
 
-.izquierda img {
+.izquierdaIndex img {
     width: 85%;
     height: auto;
     border-radius: 2%;
     margin-bottom: auto;
 }
 
-.derecha {
+.derechaIndex {
     display: flex;
     flex-direction: column;
     width: 60%;
     line-height: 150%;
     margin-top: 0%;
-    /* Quita espacio arriba */
+    padding-top: 0;
+}
 
+.izquierdaPage2 {
+    margin-top: 7%;
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.izquierdaPage2 img {
+    width: 85%;
+    height: auto;
+    border-radius: 2%;
+    margin-bottom: auto;
+}
+
+.derechaPage2 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    line-height: 150%;
+    margin-top: 0%;
     padding-top: 0;
 }
 
@@ -166,7 +206,7 @@ body {
     width: auto;
     align-items: center;
     margin-top: 0;
-    padding-top: 0;
+    padding: 1vh;
 }
 
 .derechaPage3 img {
@@ -175,7 +215,9 @@ body {
     border-radius: 2%;
     margin-bottom: auto;
 }
+/*TERMINA ACA*/
 
+/*MEDIA QUERIS*/
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -192,7 +234,7 @@ body {
         align-items: center;
     }
 
-    .perfil {
+    .perfilIndex, .perfilPage1, .perfilPage2, .perfilPage3, .perfilPage4 {
         flex-direction: column;
         width: 90%;
         align-items: center;
@@ -222,6 +264,7 @@ body {
     }
 }
 
+/*BOTONES, TEXTO, ETC, PREDETERMINADOS POR MI PAGINA*/
 .texto {
     /*Me acomoda el texto*/
     padding: 2%;
@@ -272,6 +315,7 @@ summary {
     background-color: #ffffff;
 }
 
+/*FOOTER IGUAL PARA TODOS*/
 footer {
     background-color: #6d6d6d;
     margin-top: 2vh;
