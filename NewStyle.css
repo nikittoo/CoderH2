@@ -43,6 +43,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 /*HASTA ACA PARA TODOS*/
 
 /*CADA PAGINA TIENE SU PERFIL*/
@@ -215,6 +216,7 @@ body {
     border-radius: 2%;
     margin-bottom: auto;
 }
+
 /*TERMINA ACA*/
 
 /*MEDIA QUERIS*/
@@ -234,7 +236,11 @@ body {
         align-items: center;
     }
 
-    .perfilIndex, .perfilPage1, .perfilPage2, .perfilPage3, .perfilPage4 {
+    .perfilIndex,
+    .perfilPage1,
+    .perfilPage2,
+    .perfilPage3,
+    .perfilPage4 {
         flex-direction: column;
         width: 90%;
         align-items: center;
@@ -262,6 +268,15 @@ body {
         font-size: 0.95rem;
         padding: 4%;
     }
+
+    .boton-personalizado-summary {
+        font-size: 0.9rem;
+        padding: 0.8em 1em;
+        width: 90%;
+        margin: 0.5em auto;
+        display: block;
+    }
+
 }
 
 /*BOTONES, TEXTO, ETC, PREDETERMINADOS POR MI PAGINA*/
@@ -313,6 +328,8 @@ summary {
     border-radius: 8px;
     border: 1px solid #000000;
     background-color: #ffffff;
+    display: flex;
+    justify-content: center;
 }
 
 /*FOOTER IGUAL PARA TODOS*/
