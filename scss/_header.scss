@@ -1,0 +1,27 @@
+/* HEADER */
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 1% 2.5%;
+  width: 100%;
+}
+
+.hnav {
+  display: flex;
+  width: 100%;
+}
+
+.hdivizq {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 87%;
+}
+
+.hdivder {
+  display: flex;
+  width: 33%;
+  text-align: right;
+  justify-content: flex-end;
+}
